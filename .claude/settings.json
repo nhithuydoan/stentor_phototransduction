@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(data/**)",
+      "Write(data/**)",
+      "Bash(rm data/**)",
+      "Bash(mv data/**)"
+    ],
+    "allow": [
+      "Edit(data/data_dictionary*)",
+      "Write(data/data_dictionary*)"
+    ]
+  }
+}
