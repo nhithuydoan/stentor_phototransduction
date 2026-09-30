@@ -4,7 +4,7 @@ Behavioral data and analysis for the light-evoked contraction response in *Stent
 
 ## Data
 
-Three CSV files in `data/`, all sharing the same schema (one row per cell per stimulus). See [`data/data_dictionary.md`](data/data_dictionary.md) for column definitions, per-file details, and analysis notes.
+Three CSV files in `data/`, all sharing the same strucutre (one row per cell per stimulus). See [`data/data_dictionary.md`](data/data_dictionary.md) for column definitions, per-file details, and analysis notes.
 
 | File | Experiment |
 |---|---|
@@ -20,11 +20,3 @@ scratch/        Exploratory analysis scripts (Julia)
 analysis/       Clean, reproducible pipeline (promoted from scratch)
 ```
 
-## Getting started
-
-Scripts are written in Julia and use `CSV`, `DataFrames`, `Statistics`, and `Plots` or `GLMakie`. To run a scratch analysis:
-
-```bash
-cd scratch
-julia initial_dose_response.jl
-```
