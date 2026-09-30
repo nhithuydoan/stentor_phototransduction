@@ -4,11 +4,5 @@
       "Edit(data/*.csv)",
       "Write(data/*.csv)",
       "Bash(rm data/*.csv)",
-      "Bash(mv data/*.csv)"
-    ],
-    "allow": [
-      "Edit(data/data_dictionary*)",
-      "Write(data/data_dictionary*)"
-    ]
-  }
+      "Bash(mv data/*.csv)"}
 }
