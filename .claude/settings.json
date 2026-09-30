@@ -1,10 +1,10 @@
 {
   "permissions": {
     "deny": [
-      "Edit(data/**)",
-      "Write(data/**)",
-      "Bash(rm data/**)",
-      "Bash(mv data/**)"
+      "Edit(data/*.csv)",
+      "Write(data/*.csv)",
+      "Bash(rm data/*.csv)",
+      "Bash(mv data/*.csv)"
     ],
     "allow": [
       "Edit(data/data_dictionary*)",
